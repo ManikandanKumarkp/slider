@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.btn{
+  background-color:black ;
+  position:fixed;
+  transition:3s;
+  border-radius: 1px;
+  border-bottom: 1px;
+ opacity:1;
+ margin: 4px;
+ padding-right: 12px;
+ cursor:pointer;
+ display:block;
+ text-align:center;
+ top: 0px;
+ left: 0px;
+}
+.btn:hover {
+  opacity:0.1;
+}
+.slider ul{
+  margin: 3px;
+  padding: 25px;
+  transition: 3s;
+  list-style: none;
+  height:511px;
+  width: 122px;
+  top: 0px;
+    left: 11px;
+    background-color: blue;
+}
+.silder ul li{
+  padding-left: 0px;
+  border-top: 22px;
+  border-bottom: 22px;
+}
+.slider ul li a{
+color:brown;
+text-decoration: none;
+display: block;
+}
+
+.slider ul li:hover{
+  background-color: bisque;
+  margin:2px;
+  padding:10px;
+  border:10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 2px;
+
+}
