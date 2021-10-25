@@ -3,12 +3,12 @@ body {
   padding: 0px;
 }
 .btn{
-  background-color:black ;
+  background-color:red ;
   position:fixed;
   transition:3s;
   border-radius: 1px;
   border-bottom: 1px;
- opacity:1;
+ opacity:0.1;
  margin: 4px;
  padding-right: 12px;
  cursor:pointer;
@@ -18,7 +18,22 @@ body {
  left: 0px;
 }
 .btn:hover {
-  opacity:0.1;
+  opacity:1;
+
+}
+.cancel{
+  cursor:pointer;
+  position:fixed;
+  padding-right: 12px;
+  right:122px;
+  left: 150px;
+  background-color: blue;
+}
+.cancel:hover{
+margin:0px;
+padding:0px;
+opacity: 1;
+position: fixed;
 }
 .slider ul{
   margin: 3px;
@@ -40,15 +55,19 @@ body {
 color:brown;
 text-decoration: none;
 display: block;
+line-height: 85px;
+line-break:12px;
+width:122;
 }
 
 .slider ul li:hover{
   background-color: bisque;
-  margin:2px;
+  margin:0px;
   padding:10px;
   border:10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border-top: 2px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-top: 12px;
+  width: 65px;
 
 }
