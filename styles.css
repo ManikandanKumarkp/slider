@@ -6,8 +6,8 @@ body {
   background-color:red ;
   position:fixed;
   transition:3s;
-  border-radius: 1px;
-  border-bottom: 1px;
+  border-radius: 5px;
+  border-bottom: 5px;
  opacity:0.1;
  margin: 4px;
  padding-right: 12px;
@@ -23,17 +23,20 @@ body {
 }
 .cancel{
   cursor:pointer;
+  border-radius: 5px;
+  border-bottom: 5px;
+  transition:3s;
   position:fixed;
   padding-right: 12px;
   right:122px;
   left: 150px;
   background-color: blue;
+  
 }
 .cancel:hover{
 margin:0px;
 padding:0px;
 opacity: 1;
-position: fixed;
 }
 .slider ul{
   margin: 3px;
